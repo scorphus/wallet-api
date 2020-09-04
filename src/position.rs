@@ -370,7 +370,7 @@ mod tests {
                 id: None,
                 kind: OperationKind::Purchase,
                 broker: String::from("FakeTestBroker"),
-                portfolio: String::from("FakeTestWallet"),
+                portfolios: vec![String::from("FakeTestWallet")],
                 symbol: String::from("FAKE4"),
                 time: Local::now(),
                 price: 10.0,
